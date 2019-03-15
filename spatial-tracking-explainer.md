@@ -505,7 +505,6 @@ dictionary XRStationaryReferenceSpaceOptions : XRReferenceSpaceOptions {
 
 [SecureContext, Exposed=Window]
 interface XRStationaryReferenceSpace : XRReferenceSpace {
-  readonly attribute XRStationaryReferenceSpaceSubtype subtype;
 };
 
 //
